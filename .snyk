@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-PYTHON-BLEACH-561754:
+    - '*':
+        reason: None Given
+        expires: 2023-06-25T09:31:27.897Z
+        created: 2023-05-26T09:31:27.902Z
+patch: {}
